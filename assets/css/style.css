@@ -70,13 +70,14 @@ header nav ul li a {
 /* start hero */
 .hero {
     background-image: url("../images/me-by-bay-flipped.jpg");
-    background-size: cover;
+    background-size: 99%;
+    background-repeat: no-repeat;
     background-position: center;
     display: flex;
     justify-content: center;
     flex-wrap: wrap;
     align-items: flex-start;
-    background-attachment: fixed;
+  /*  background-attachment: fixed; */
     background-position: 80%;
 }
 
