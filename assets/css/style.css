@@ -7,8 +7,8 @@
 
 :root {
   --primary-color: #fce138;
-  --secondary-color: #024e76;
-  --tertiary-color: #39a6b2;
+  --secondary-color: #8ea39e;
+  --tertiary-color: #4f79c5;
 }
 
 body {
@@ -19,12 +19,10 @@ font-family: Helvetica, Arial, Sans-serif;
 /* start styles to header */
 header {
     padding: 20px 35px;
-    background-color: var(--tertiary-color);
+    background-color: var(--secondary-color);
     display: flex;
     justify-content: space-between;
     flex-wrap: wrap;
-    position: -webkit-sticky;
-    position: sticky;
     top: 0;   
     background-image: url("../images/flipped-hero-image.jpg");
     background-size: cover;
@@ -38,14 +36,13 @@ header {
 header h1 {
     font-weight: bold;
     font-size: 36px;
-    color: var(--primary-color);
+    color: var(--tertiary-color);
     margin: 0;
-    text-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
 }
 
 header a {
     text-decoration: none;
-    color: var(--primary-color);
+    color: var(--tertiary-color);
 }
 
 header nav {
@@ -63,7 +60,6 @@ header nav ul li a {
     padding: 10px 15px;
     font-weight: lighter;
     font-size: 1.55vw;
-    text-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
 }
 /* end header */
 
@@ -169,6 +165,88 @@ header nav ul li a {
 
     /* end what you do section */
 /* end run buddy what you do section */
+
+/* start run buddy reach out section */
+    /* start reach out section */
+    .contact {
+        background: var(--secondary-color);
+    }
+
+    .contact h2 {
+        color: var(--primary-color);
+        
+    }
+
+    .contact-info iframe {
+    }
+
+    .contact-info div {
+        color: white;
+    }
+
+    .contact-info {
+        display: flex;
+        justify-content: space-between;
+        flex-wrap: wrap;
+    }
+
+    .contact-info > * {
+        flex: 1;
+        margin: 15px;
+      }
+
+    .contact-info h3 {
+        color: var(--primary-color);
+        font-size: 32px;
+    }
+
+    .contact-info p, .contact-info address {
+        margin: 20px 0;
+        line-height: 1.5;
+        font-size: 16px;
+        font-style: normal;
+    }
+
+    .contact-form input, .contact-form textarea {
+        border: 1px solid var(--secondary-color);
+        display: block;
+        padding: 7px 15px;
+        font-size: 16px;
+        background-color: rgba(255,255,255, 0.75);
+        width: 100%;
+        margin-bottom: 15px;
+        margin-top: 5px;
+        border-radius: 10px;
+    }
+
+    .contact-form input:focus, .contact-form textarea:focus {
+        background-color: rgba(255,255,255, 1);
+        outline: none;
+    }
+
+    .contact-form button {
+        width: 100%;
+        border: none;
+        background: var(--primary-color);
+        color: var(--secondary-color);
+        text-align: center;
+        padding: 15px 0;
+        font-size: 16px;
+        border-radius: 10px;
+    }
+
+    .contact-form button:hover {
+      color: var(--primary-color);
+      background: var(--tertiary-color);
+    }
+
+    .contact-info a {
+        color: var(--primary-color);
+    }
+    /* end reach out section */
+
+
+/* end run buddy reach out section */
 
 
 
