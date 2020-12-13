@@ -99,6 +99,78 @@ header nav ul li a {
 }
 
 
+/* start run buddy what you do section */
+    /* start what we do section */
+    .intro p {
+        line-height: 1.7;
+        color: var(--tertiary-color);
+        width: 80%;
+        font-size: 20px;
+        margin: 0 auto;
+        text-align: center;
+    }
+    /* end what we do section */
+
+    /* start what you do section */
+    .steps {
+        background: var(--primary-color);
+    }
+
+    .step {
+        margin: 50px auto;
+        padding-bottom: 50px;
+        width: 80%;
+        display: flex;
+        flex-wrap: wrap;
+        align-items: center;
+        justify-content: space-between;
+      }
+
+      .step:not(:last-child) {
+        border-bottom: 1px solid var(--tertiary-color);
+      }
+
+    .step h3 {
+        color: var(--secondary-color);
+        font-size: 46px;
+        flex: 1 30%
+    }
+    
+    .step-info {
+        flex: 2 70%;
+        display: flex;
+        flex-wrap: wrap;
+        align-items: center;
+    }
+
+    .step-text p {
+        color: var(--tertiary-color);
+        font-size: 18px;
+    }
+
+    .step-text h4 {
+        font-size: 26px;
+        line-height: 1.5;
+        color: var(--secondary-color);
+      }
+
+    .step-img {
+        flex: 1 12%;
+        margin-right: 20px;
+      }
+
+    .step-text {
+        flex: 12;
+      }
+
+    .step-img img {
+        max-width: 100%;
+      }
+
+    /* end what you do section */
+/* end run buddy what you do section */
+
+
 
   /* start media query */
     /* MEDIA QUERY FOR SMALLER DESKTOP SCREENS AND SMALLER */
