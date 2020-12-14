@@ -167,6 +167,68 @@ header nav ul li a {
 /* end run buddy what you do section */
 
 
+/* start projects style */
+
+.project-name {
+    font-size: 36px;
+}
+
+.projects {
+    width: 100%;
+    margin: 0 auto;
+    display: flex;
+    flex-wrap: wrap;
+    
+}
+
+.main-project {
+    margin: 20px;
+    flex: 0 0 80%;
+    background: white;
+    color: (--var(--secondary-color);
+}
+
+.secondary-project {
+    margin: 20px;
+    flex: 0 0 45%;
+    background-color: white;
+    color: var(--tertiary-color);
+}
+
+.main-project img { 
+    width 100%;
+}
+
+.secondary-project img {
+    width: 100%;
+}
+
+.project-objective {
+    padding: 30px;
+    line-height: 1.2;
+}
+
+.project-objective h3 {
+    font-size: 25px;
+}
+
+.project-objective h4 {
+    font-size: 20px;
+    margin-bottom: 15px;
+    font-weight: lighter;
+}
+
+.project-objective p {
+    font-size: 17px;
+}
+
+.flex-row { 
+    display: flex;
+}
+.
+/* end projects style */
+
+
 
 
   /* start media query */
@@ -274,6 +336,8 @@ header nav ul li a {
           }
         
     }
+
+    
       
       /* MEDIA QUERY FOR MOBILE PHONES AND SMALLER */
       @media screen and (max-width: 575px) {
